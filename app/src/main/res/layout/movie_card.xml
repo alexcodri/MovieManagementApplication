@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:movie_card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorBlack"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/movie_card_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/card_margin"
+        android:background="@color/colorBlack"
+        android:backgroundTint="@color/colorBlack"
+        android:elevation="5dp"
+        movie_card_view:cardCornerRadius="@dimen/card_movie_radius">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/movie_thumbnail"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/mCover_height"
+                android:background="?attr/selectableItemBackgroundBorderless"
+
+                android:outlineAmbientShadowColor="@color/colorBlack"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:id="@+id/movieTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/movie_thumbnail"
+                android:background="@color/colorBlack"
+                android:paddingLeft="@dimen/mTitle_padding"
+                android:paddingTop="@dimen/mTitle_padding"
+                android:paddingRight="@dimen/mTitle_padding"
+                android:paddingBottom="@dimen/mTitle_padding"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/mTitle" />
+
+
+            <TextView
+                android:id="@+id/rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/movieTitle"
+                android:background="@color/colorBlack"
+                android:paddingLeft="@dimen/mTitle_padding"
+                android:paddingTop="@dimen/mTitle_padding"
+                android:paddingRight="@dimen/mTitle_padding"
+                android:paddingBottom="@dimen/usr_rating_padding_btm"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/usr_rating" />
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

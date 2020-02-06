@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="eu.ase.moviemanagementapplication">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+
+    <application
+
+
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data android:name="com.google.android.geo.API_KEY"
+            android:value="@string/map_key"/>
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity android:name=".UserAccessManagement.GmapsActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".UserAccessManagement.GraphActivity"
+            android:label="Times a movie was saved" />
+        <activity
+            android:name=".UserAccessManagement.LiveUsersActivity"
+            android:label="Live users from Firebase"
+            android:theme="@style/AppTheme.DarkActionBar" />
+        <activity
+            android:name=".UserAccessManagement.FilterActivity"
+            android:label="Please enter a number to filter by rating"
+            android:theme="@style/AppTheme.DarkActionBar" />
+        <activity android:name=".UserAccessManagement.ChangePassword"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".MovieUserActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".UserAccessManagement.AccountSettingsActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Menu.AboutActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".UserAccessManagement.Register"
+            android:label="Register"
+            android:theme="@style/AppTheme.DarkActionBar" />
+        <activity
+            android:name=".UserAccessManagement.Login"
+            android:label="Login"
+            android:theme="@style/AppTheme.DarkActionBar" />
+        <activity
+            android:name=".UserAccessManagement.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MoviesActivity"
+            android:label="Movies"
+            android:theme="@style/AppTheme.DarkActionBar" />
+        <activity
+            android:name=".MovieDetailActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Menu.RateAppActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Menu.SettingsActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

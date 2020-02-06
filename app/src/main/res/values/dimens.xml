@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="mTitle_padding">25dp</dimen>
+    <dimen name="mTitle">15dp</dimen>
+    <dimen name="detail_backdrop_hght">450dp</dimen>
+    <dimen name="padding_layout">10dp</dimen>
+    <dimen name="card_margin">6dp</dimen>
+    <dimen name="usr_rating_padding_btm">15dp</dimen>
+    <dimen name="mCover_height">210dp</dimen>
+    <dimen name="card_movie_radius">0sp</dimen>
+    <dimen name="usr_rating">15dp</dimen>
+    <dimen name="layout_mg_lt">10dp</dimen>
+    <dimen name="layout_mg_top">3dp</dimen>
+    <dimen name="layout_mg_top2">10dp</dimen>
+    <dimen name="favorite_button_vertical_margin">16dp</dimen>
+    <dimen name="settings_size">32sp</dimen>
+    <dimen name="settings_height">53dp</dimen>
+    <dimen name="mediumSize">25sp</dimen>
+
+
+</resources>
