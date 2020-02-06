@@ -20,7 +20,9 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
-
+    configurations.all {
+        resolutionStrategy.force 'com.android.support:support-annotations:22.1.0'
+    }
     buildTypes {
         release {
             minifyEnabled false
