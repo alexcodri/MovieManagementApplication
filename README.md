@@ -20,7 +20,9 @@ The project, to solve the problem, presents the user with a list of movies that 
 
   The functionalities of the application are: registration / login to save movies, summary of newly released movies (Title, poster and IMDB rating), detailed presentation of movies (Title, poster, IMDB rating and movie description), adding movies in the favorites list, filtering saved movies by rating, recommending a cinema, changing the password and deleting the account and presenting a movie-based statistic and how many times one has been added to the favorites list.
   
+## DEMO
 
+![](demo.gif)
 
   
 ## 4. Implementation
