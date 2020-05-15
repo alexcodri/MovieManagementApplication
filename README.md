@@ -25,6 +25,9 @@ The project, to solve the problem, presents the user with a list of movies that 
   
 ## 4. Implementation
 
+  Application's stack: Java, SQLite, Firebase
+  Also using: RecycleView, CardView, ButterKnife, Picasso
+
   The application was developed using Android Studio and consumed the movie API provided by The Movie DB.
   
   The Movie DB API provides a JSON that contains movie information, from which I chose to use the ID, title, description, rating, release date, and movie poster.
