@@ -29,7 +29,7 @@ The project, to solve the problem, presents the user with a list of movies that 
 
   Application's stack: Java, SQLite, Firebase
   
-  Also using: RecycleView, CardView, ButterKnife, Picasso
+  Also using: RecyclerView, CardView, ButterKnife, Picasso
 
   The application was developed using Android Studio and consumed the movie API provided by The Movie DB.
   
